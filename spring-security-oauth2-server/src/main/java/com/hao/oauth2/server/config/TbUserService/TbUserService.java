@@ -1,11 +1,10 @@
-package TbUserService;
+package com.hao.oauth2.server.config.TbUserService;
 
-import org.springframework.stereotype.Service;
-import javax.annotation.Resource;
-import java.util.List;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hao.oauth2.server.mapper.TbUserMapper;
 import com.hao.oauth2.server.domain.TbUser;
+import com.hao.oauth2.server.mapper.TbUserMapper;
+import org.springframework.stereotype.Service;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+
 /**
  * @author     ：Wang Hao
  * @date       ：Created in 2020/9/15 11:54

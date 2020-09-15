@@ -4,14 +4,28 @@
     <option name="projectProfile">
       <ProjectProfile>
         <option name="generateService" value="true" />
-        <option name="javaMapperPackage" value="com.hao.oauth2.server.mapper" />
-        <option name="javaMapperPath" value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java" />
-        <option name="javaModelPackage" value="com.hao.oauth2.server.domain" />
-        <option name="javaModelPath" value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java" />
-        <option name="lastDatabaseCrudChooseModuleName" value="spring-security-oauth2-server" />
+        <option name="javaMapperPackage" value="com.hao.oauth2.resources.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java" />
+        <option name="javaModelPackage" value="com.hao.oauth2.resources.domain" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="spring-security-oauth2-resource" />
         <option name="lombokDataAnnotation" value="true" />
         <option name="moduleNameToPackageAndPathMap">
           <map>
+            <entry key="spring-security-oauth2-resource">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.hao.oauth2.resources.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java" />
+                  <option name="javaModelPacakge" value="com.hao.oauth2.resources.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java" />
+                  <option name="javaServicePackage" value="TbUserService" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
             <entry key="spring-security-oauth2-server">
               <value>
                 <UserPackageAndPathInfoByModule>
@@ -19,6 +33,7 @@
                   <option name="javaMapperPath" value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java" />
                   <option name="javaModelPacakge" value="com.hao.oauth2.server.domain" />
                   <option name="javaModelPath" value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java" />
                   <option name="javaServicePackage" value="TbUserService" />
                   <option name="javaServicePath" value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java" />
                   <option name="xmlPackage" value="mapper" />
@@ -54,11 +69,35 @@
                 </TableGenerateConfig>
               </value>
             </entry>
+            <entry key="wangh_resources:tb_content">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="TbContent" />
+                  <option name="moduleName" value="spring-security-oauth2-resource" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="wangh_resources:tb_content_category">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="TbContentCategory" />
+                  <option name="moduleName" value="spring-security-oauth2-resource" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
           </map>
         </option>
         <option name="userMybatisPlus" value="true" />
         <option name="xmlMapperPackage" value="mapper" />
-        <option name="xmlMapperPath" value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/resources" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/resources" />
       </ProjectProfile>
     </option>
   </component>
